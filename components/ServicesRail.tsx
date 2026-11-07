@@ -54,7 +54,7 @@ export default function ServicesRail() {
   );
 
   return (
-    <section ref={sec} className="rail" aria-labelledby="rail-h">
+    <section ref={sec} className="rail panel theme-iris" aria-labelledby="rail-h">
       <div className="rail__pin">
         <div ref={track} className="rail__track">
           <div className="rail__intro">

@@ -3,7 +3,7 @@ import Lines from "./Lines";
 
 export default function Testimonial() {
   return (
-    <section className="testi wrap" aria-labelledby="testi-h">
+    <section className="testi wrap panel theme-peri" aria-labelledby="testi-h">
       <div className="testi__meta mono" data-reveal>
         <span>(Client voice)</span>
         <span>★★★★★</span>

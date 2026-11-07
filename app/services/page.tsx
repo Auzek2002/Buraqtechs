@@ -27,11 +27,11 @@ export default function ServicesPage() {
 
       <ServicesRail />
 
-      <section className="band band--tight">
+      <section className="band panel theme-volt">
         <Marquee items={services.map((s) => s.title)} reverse outline />
       </section>
 
-      <section className="clients wrap" aria-labelledby="clients-h">
+      <section className="clients wrap panel theme-light" aria-labelledby="clients-h">
         <div className="clients__head">
           <p className="mono dim" data-reveal>(Our Customers)</p>
           <Lines

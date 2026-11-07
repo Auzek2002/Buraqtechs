@@ -13,11 +13,11 @@ export default function Home() {
     <>
       <HomeHero />
 
-      <section className="band">
+      <section className="band panel theme-volt">
         <Marquee items={services.map((s) => s.title)} />
       </section>
 
-      <section className="help wrap" aria-labelledby="help-h">
+      <section className="help wrap panel theme-light" aria-labelledby="help-h">
         <div className="help__head">
           <p className="mono dim" data-reveal>(01) Services</p>
           <Lines id="help-h" className="h-xl" lines={["How can we", <><em className="serif">help</em> you?</>]} />
@@ -30,7 +30,7 @@ export default function Home() {
         <ServicesIndex />
       </section>
 
-      <section className="statement wrap" aria-label="Our approach">
+      <section className="statement wrap panel theme-iris" aria-label="Our approach">
         <p className="mono dim" data-reveal>(02) Approach</p>
         <ScrollText
           className="statement__text"
@@ -39,7 +39,7 @@ export default function Home() {
         />
       </section>
 
-      <section className="clients wrap" aria-labelledby="clients-h">
+      <section className="clients wrap panel theme-light" aria-labelledby="clients-h">
         <div className="clients__head">
           <p className="mono dim" data-reveal>(03) Our Customers</p>
           <Lines

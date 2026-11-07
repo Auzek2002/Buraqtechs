@@ -23,7 +23,7 @@ export default function ContactPage() {
         readout={["24×7", "Availability"]}
       />
 
-      <section className="contact wrap">
+      <section className="contact wrap panel theme-light">
         <div className="contact__form">
           <p className="mono dim" data-reveal>(Request)</p>
           <Lines className="h-md" lines={["Request"]} />
